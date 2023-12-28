@@ -1,0 +1,69 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"explorer.sortOrder": "mixed",
+		"files.exclude": {
+			".idea": true,
+			".venv": true,
+			".ruff_cache": true,
+			".pytest_cache": true,
+			"**/__pycache__": true,
+			"**/*.egg-info": true
+		},
+		"terminal.integrated.defaultLocation": "editor",
+		"editor.formatOnType": true,
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"vim.easymotion": true,
+		"vim.incsearch": true,
+		"vim.useSystemClipboard": true,
+		"vim.useCtrlKeys": false, // Recommended in the doc
+		"vim.hlsearch": true,
+		"vim.leader": ",",
+		"vim.statusBarColorControl": true,
+		"extensions.experimental.affinity": {
+			"vscodevim.vim": 1
+		},
+		"python.analysis.exclude": [
+			"/_*",
+			"**/_*",
+			"**/edc",
+			"**/emr"
+		],
+		"python.analysis.addImport.exactMatchOnly": true,
+		"python.analysis.autoFormatStrings": true,
+		"python.analysis.completeFunctionParens": true,
+		"python.analysis.diagnosticMode": "workspace",
+		"python.analysis.inlayHints.functionReturnTypes": false,
+		"python.analysis.inlayHints.variableTypes": false,
+		"python.analysis.typeCheckingMode": "strict",
+		"editor.rulers": [
+			88
+		],
+		"cSpell.enabled": false,
+		"[jsonc]": {
+			"editor.defaultFormatter": "vscode.json-language-features"
+		},
+		"problems.decorations.enabled": true,
+		"ruff.path": [
+			"/workspace/socrates/.venv/bin/ruff"
+		],
+		"[python]": {
+			"editor.formatOnSave": true,
+			"editor.formatOnType": true,
+			"editor.formatOnPaste": true,
+			"editor.defaultFormatter": "charliermarsh.ruff",
+			"editor.codeActionsOnSave": {
+				"source.fixAll": "explicit",
+				"source.organizeImports": "explicit"
+			}
+		},
+		"conventionalCommits.scopes": [
+			"Dev Container"
+		]
+	}
+}
